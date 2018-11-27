@@ -1,0 +1,51 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/bbbsaa/config_cloud
+          username: 56350402@qq.com
+          password: tbzd62100306
+          timeout: 5
+          default-label: master
+
+server:
+  port: 9100
+
+#\u6307\u5B9A\u6CE8\u518C\u4E2D\u5FC3a
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
